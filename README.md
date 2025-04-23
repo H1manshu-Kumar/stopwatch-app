@@ -17,7 +17,7 @@ A responsive and aesthetic stopwatch web application built with Flask, featuring
 
 ## Installation
 
-1. Clone this repository
+1. Clone this repository:
    ```
    git clone https://github.com/YOUR-USERNAME/stopwatch-app.git
    cd stopwatch-app
