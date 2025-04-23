@@ -6,6 +6,10 @@ A responsive and aesthetic stopwatch web application built with Flask, featuring
 
 <video src="demo.webm" controls title="Stopwatch Application Demo" width="100%"></video>
 
+[demo.webm](https://github.com/user-attachments/assets/6ede838f-0411-459a-9a22-3c8be3b6ac4c)
+
+
+
 ## Features
 
 - Start, pause, and reset functionality
