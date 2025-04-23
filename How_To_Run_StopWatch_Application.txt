@@ -1,0 +1,23 @@
+## How to Run the StopWatch Application
+
+1. Install the required dependencies:
+  
+   pip install -r requirements.txt
+   
+
+2. Run the Flask application:
+  
+   python app.py
+   
+
+3. Open your browser and navigate to http://127.0.0.1:5001/
+
+## Usage Instructions
+
+• Click the Start button to begin the stopwatch
+• Click the Pause button to pause the stopwatch
+• Click the Reset button to reset the stopwatch to 00:00:00
+• Click the Lap button to record a lap time (only available when the stopwatch is running)
+
+The application is now ready to use! All files have been created with the necessary code for a fully functional, aesthetic, 
+and responsive stopwatch application.

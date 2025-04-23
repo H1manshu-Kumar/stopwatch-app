@@ -1,0 +1,181 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #764ba2;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+}
+
+h2 {
+    color: #667eea;
+    margin: 1.5rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+/* Stopwatch Display */
+.stopwatch {
+    margin-bottom: 1.5rem;
+}
+
+.time-display {
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#start-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pause-btn {
+    background-color: #FFC107;
+    color: #333;
+}
+
+#reset-btn {
+    background-color: #F44336;
+    color: white;
+}
+
+#lap-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+/* Laps Section */
+.laps-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1rem;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.laps-list {
+    text-align: left;
+}
+
+.lap-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.lap-item:last-child {
+    border-bottom: none;
+}
+
+.lap-number {
+    font-weight: bold;
+    color: #667eea;
+}
+
+.lap-time {
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 1.5rem;
+    }
+    
+    .time-display {
+        font-size: 2.5rem;
+    }
+    
+    .btn {
+        padding: 0.7rem 1rem;
+        min-width: 90px;
+    }
+}
+
+@media (max-width: 400px) {
+    .time-display {
+        font-size: 2rem;
+    }
+    
+    .controls {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}

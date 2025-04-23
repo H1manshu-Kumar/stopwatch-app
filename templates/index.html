@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <div class="stopwatch">
+            <div class="time-display">
+                <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="btn"><i class="fas fa-play"></i> Start</button>
+                <button id="pause-btn" class="btn" disabled><i class="fas fa-pause"></i> Pause</button>
+                <button id="reset-btn" class="btn" disabled><i class="fas fa-redo"></i> Reset</button>
+                <button id="lap-btn" class="btn" disabled><i class="fas fa-flag"></i> Lap</button>
+            </div>
+        </div>
+        <div class="laps-container">
+            <h2>Laps</h2>
+            <div class="laps-list" id="laps-list">
+                <!-- Laps will be added here dynamically -->
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
