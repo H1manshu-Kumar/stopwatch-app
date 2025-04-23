@@ -2,9 +2,9 @@
 
 A responsive and aesthetic stopwatch web application built with Flask, featuring lap functionality.
 
-## Demo
+## Stopwatch project demo video
 
-A demonstration of the application is available in the [demo.webm](demo.webm) video file included in this repository.
+<video src="demo.webm" controls title="Stopwatch Application Demo" width="100%"></video>
 
 ## Features
 
