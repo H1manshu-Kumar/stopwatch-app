@@ -58,10 +58,10 @@ stopwatch_app/
 
 ## Usage
 
-- Click the **Start** button to begin the stopwatch
-- Click the **Pause** button to pause the stopwatch
+- Click the **Start** button to begin the stopwatch.
+- Click the **Pause** button to pause the stopwatch.
 - Click the **Reset** button to reset the stopwatch to 00:00:00
-- Click the **Lap** button to record a lap time (only available when the stopwatch is running)
+- Click the **Lap** button to record a lap time (only available when the stopwatch is running).
 
 ## Technologies Used
 
