@@ -1,6 +1,6 @@
 # Stopwatch Flask Application
 
-A responsive and aesthetic stopwatch web application built with Flask, featuring lap functionality.
+A responsive and aesthetic stopwatch web application built with Flask, featuring lap functionality
 
 ## Stopwatch project demo video
 
