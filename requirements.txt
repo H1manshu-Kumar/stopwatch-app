@@ -1,2 +1,5 @@
+# Flask is a lightweight WSGI web application framework in Python.
 flask==2.0.1
+
+# Gunicorn is a Python WSGI HTTP Server for UNIX, used to serve Flask applications.
 gunicorn==20.1.0
