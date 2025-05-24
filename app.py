@@ -13,6 +13,5 @@ def index():
     return render_template('index.html')
 
 # Run the application only if this script is executed directly
-if __name__ == '__main__':
-    # Start the Flask development server with debugging enabled on port 5001
+if __name__ == '__main__':    
     app.run(debug=True, port=5001)
